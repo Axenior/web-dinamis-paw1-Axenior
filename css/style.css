@@ -1,0 +1,60 @@
+*{
+  scroll-margin-top: 56px;
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#container-1{
+  background-image: url('../img/background1.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+  height: calc(100vh - 56px);
+  width:100%;
+}
+
+#container-1 > div{
+  width: 100%;
+}
+
+#img-profile{
+  border: 10px solid white;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%,rgba(255,255,255,0.5) 100%);
+}
+
+#java {
+  width: 250px;
+}
+
+#python{
+  width: 140px;
+}
+
+#html{
+  width: 140px;
+}
+
+#javascript{
+  width: 150px;
+}
+
+#container-3{
+  background-color: rgb(180, 178, 157);
+}
+
+.icon{
+  height: 45px;
+}
+
+#card-pengalaman{
+  overflow-y: auto;
+  height: 295px;
+}
