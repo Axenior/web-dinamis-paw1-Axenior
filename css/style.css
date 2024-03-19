@@ -58,3 +58,9 @@
   overflow-y: auto;
   height: 295px;
 }
+
+@media (max-width: 768px) {
+  #img-profile{
+    max-width: 300px;
+  }
+}
